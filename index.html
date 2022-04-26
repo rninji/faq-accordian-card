@@ -13,28 +13,87 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
+  <div class="container">
+    <div id="card">
+      <div id="left" class="card-container">
+        <div class="desktop">
+          <img src="images/bg-pattern-desktop.svg">
+          <img src="images/illustration-woman-online-desktop.svg">
+          <img src="images/illustration-box-desktop.svg">
+        </div>
+        <!-- desktop  -->
+        <div class="mobile">
+          <img src="images/bg-pattern-mobile.svg">
+          <img src="images/illustration-woman-online-mobile.svg">
+        </div>
+        <!-- mobile  -->
+      </div>
+      <!-- left card container -->
+      <div id="right" class="card-container">
+        <h3 id="title">FAQ</h3>
+        <ul id="faq-list">
+          <li class="faq-title">
+            How many team members can I invite?
+            <p class="faq-content">
+              You can invite up to 2 additional users on the Free plan. There is no limit on 
   team members for the Premium plan.
+            </p>
+          </li>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+          <hr>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+          <li class="faq-title">
+            What is the maximum file upload size?
+            <p class="faq-content">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+          </li>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+          <hr>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          <li class="faq-title">
+            How do I reset my password?
+            <p class="faq-content">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </p>
+          </li>
 
+          <hr>
+
+          <li class="faq-title">
+            Can I cancel my subscription?
+            <p class="faq-content">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </li>
+
+          <li class="faq-title">
+            Do you provide additional support?
+            <p class="faq-content">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+          </li>
+
+          <hr>
+
+        </ul>
+        <!-- faq-list  -->
+      </div>
+      <!-- right  -->
+    </div>
+    <!-- card  -->
+  </div> 
+  <!-- container  -->
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+<script src="index.js"></script>
 </html>
