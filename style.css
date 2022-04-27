@@ -43,3 +43,7 @@ body{
     width: 50%;
     height: 100%;
 }
+
+#faq-list{
+    list-style: none;
+}
